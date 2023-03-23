@@ -1,8 +1,8 @@
-import PostCard from "./components/PostCard"
+import AppRoutes from "./routes"
 
 function App() {
   return (
-    <PostCard />
+    <AppRoutes />
   )
 }
 
