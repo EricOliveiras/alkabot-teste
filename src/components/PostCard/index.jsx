@@ -7,7 +7,7 @@ const PostCard = () => {
   const [ posts, setPosts ] = useState()
 
   const getPosts = async () => {
-    let result = await postsService.read()
+    let result = await postsService.readAll()
     setPosts(result)
   }
   
@@ -20,13 +20,13 @@ const PostCard = () => {
       <h1>Posts:</h1>
       {!posts ? (
         <p>Não existe posts ainda</p>
-      ): (
+      ) : (
         posts.map(post => {
           return (
             <div className="posts" key={post.id}>
               <h2 className="post-title">{post.title}</h2>
               <p className="post-p">{post.body}</p>
-              <a className="post-link" href="#">ver comentários</a>
+              <a className="post-link" href={`/post/${post.id}`}>ver comentários</a>
             </div>
           )
         })
