@@ -1,0 +1,28 @@
+.container {
+  margin: 30px auto;
+  width: 50%;
+}
+
+.posts {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 10px 20px;
+}
+
+.post-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.post-p {
+  padding-left: 5px;
+}
+
+.post-link {
+  align-self: self-end;
+  margin-top: 20px;
+}
