@@ -1,6 +1,9 @@
-function App() {
+import PostCard from "./components/PostCard"
 
-  return <h1>Ola mundo</h1>
+function App() {
+  return (
+    <PostCard />
+  )
 }
 
 export default App
