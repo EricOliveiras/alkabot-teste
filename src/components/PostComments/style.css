@@ -1,0 +1,14 @@
+.container-comment {
+  width: 100%;
+  margin: 20px 0;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.comment-p {
+  padding-left: 5px;
+}
