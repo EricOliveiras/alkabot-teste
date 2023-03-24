@@ -42,8 +42,8 @@ const PostComments = () => {
           ) : (
             comments.map(comment => {
               return (
-                <div className="container-comment">
-                  <div className="comment" key={comment.id}>
+                <div className="container-comment" key={comment.id}>
+                  <div className="comment">
                     <h3 className="comment-title">{comment.name}</h3>
                     <p className="comment-p">{comment.body}</p>
                   </div>
