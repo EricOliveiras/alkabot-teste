@@ -26,3 +26,8 @@
   align-self: self-end;
   margin-top: 20px;
 }
+
+.user-p-link {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

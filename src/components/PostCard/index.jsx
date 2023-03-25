@@ -39,7 +39,7 @@ const PostCard = () => {
                 users.map(user => {
                   if (user.id === post.userId) {
                     return (
-                      <p key={user.id}>Autor: <a href={`/user/${user.id}`}>{user.name}</a></p>
+                      <p className="user-p-link" key={user.id}>Autor: <a href={`/user/${user.id}`}>{user.name}</a></p>
                     )
                   }
                 })
