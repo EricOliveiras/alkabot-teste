@@ -23,7 +23,7 @@ const UserCard = () => {
         <p>Usuário não encontrado!</p>
       ) : (
         <div className="container">
-          <a href="/">voltar</a>
+          <a href='javascript:history.back()'>voltar</a>
           <div className="user">
             <h3>Nome: {user.name}</h3>
             <h5>Username: {user.username}</h5>
